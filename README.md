@@ -43,8 +43,3 @@ Após abrir o dasboard, clique na opção "Running integration tests" para rodar
 -Cypress: Framework de automação: https://cypress.io/
 
 -Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
-
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
