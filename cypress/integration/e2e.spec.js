@@ -1,8 +1,5 @@
 /// <reference types="cypress" />
 
-//import {enderecoPage} from "../support/page_objects/endereco.page";
-import { faker } from '@faker-js/faker';
-
 context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     /*  Como cliente 
         Quero acessar a Loja EBAC 
@@ -46,10 +43,10 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.addProdutos('Circe Hooded Ice Fleece', 'L', 'Gray', quantidadeProduto)
 
         // acessar outra pagina 
-        cy.get(':nth-child(4) > .page-numbers').click()
+        cy.get(':nth-child(3) > .page-numbers').click()
 
-        var quantidadeProduto = 5
-        cy.addProdutos('Eos V-Neck Hoodie', 'L', 'Blue', quantidadeProduto)
+        var quantidadeProduto = 1
+        cy.addProdutos('Daphne Full-Zip Hoodie', 'M', 'Purple', quantidadeProduto)
 
         // acessando carrinho de compras
         cy.get('.dropdown-toggle > .text-skin > .icon-basket').click()
